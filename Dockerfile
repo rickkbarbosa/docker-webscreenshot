@@ -1,4 +1,8 @@
 FROM ubuntu:bionic
+LABEL "Maintainer"="Ricardo Barbosa"
+LABEL "e-mail"="rickkbarbosa@live.com"
+LABEL "Description"="Chrome Driver + Chrome + Python Webscreenshot" 
+LABEL "version"="0.0.1"
 
 WORKDIR /tmp
 
